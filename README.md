@@ -1,24 +1,23 @@
 # Healthcare Data Analysis and Predictive Modeling
 
 ## Overview
-This project performs an end-to-end **healthcare data analysis** using Python.  
-It involves data cleaning, exploratory data analysis (EDA), statistical testing, and predictive modeling to understand the factors influencing **the number of treatments** across various diagnosis groups, client types, and demographics.
+This project performs an end-to-end **healthcare data analysis** using Python. It involves data cleaning, exploratory data analysis (EDA), statistical testing, and predictive modeling to understand the factors influencing **the number of treatments** across various diagnosis groups, client types, and demographics.
 
 The dataset contains over **35,000 records** of healthcare cases, including patient demographics, diagnosis information, treatment counts, and case status.
 
 ---
 
 ## Objectives
-1. **Clean and prepare** the dataset for analysis.
-2. **Explore patterns** in treatment distribution, age demographics, and client categories.
-3. **Identify relationships** between variables such as diagnosis group, age group, and case status.
-4. **Perform statistical hypothesis testing** (t-test, ANOVA, chi-square).
-5. **Build and evaluate a predictive model** to estimate the number of treatments based on available features.
+1. **Clean and prepare**; the dataset for analysis.
+2. **Explore patterns**; in treatment distribution, age demographics, and client categories.
+3. **Identify relationships**; between variables such as diagnosis group, age group, and case status.
+4. **Perform statistical hypothesis testing**; (t-test, ANOVA, chi-square).
+5. **Build and evaluate a predictive model**; to estimate the number of treatments based on available features.
 
 ---
 
 ## Data Preparation
-- Removed rows with missing essential values (e.g., `Number of Treatments`, `Diagnosis Group`).
+- Removed rows with missing essential values.
 - Converted date columns to datetime format.
 - Created additional derived columns:
   - `Month` (for time series analysis)
